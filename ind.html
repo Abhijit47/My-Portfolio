@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhijeet Karmakar-Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2 class="name">Abhijeet</h2>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#workAndProject">Work/Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact me</a></li>
+            <i class="uil uil-mutliply" onclick="closeMenu()"></i>
+          </ul>
+          <i class="uil uil-apps" onclick="openMenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <h1>
+            Hi....! <br />
+            I am <span>Abhijeet </span> Karmakar
+          </h1>
+          <p>Full Stack Developer</p>
+        </div>
+
+        <!-- //Social media icon  -->
+        <div class="social-icons">
+          <a href="http://www.linkedin.com/abhijeet-karamkar"
+            ><i class="uil uil-linkedin"></i
+          ></a>
+          <a href="http://www.github.com"><i class="uil uil-github"></i></a>
+          <a href="http://www.youtube.com"><i class="uil uil-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- //About  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="" alt="" />
+            <a
+              href="https://writing.colostate.edu/guides/documents/resume/functionalsample.pdf"
+              class="btn btn1"
+              >Resume</a
+            >
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A lifetime Learner, Team Player, Hard Working with hands on
+              knowledge in demanding full Stack Technologies such as React.js
+              ,Node.js,Angular,Java,Python,Automation Testing, Devops and Cloud,
+              Robot Framework and Backend Technologies
+              Mongodb,Oracle,Node.js,DSA who wants to upgrade skills and
+              contribute to organization where my skills are recognized.
+            </p>
+
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="openTab('certification')">
+                Certification
+              </p>
+              <p class="tab-links active-link" onclick="openTab('education')">
+                Education
+              </p>
+              <p
+                class="tab-links active-link"
+                onclick="openTab('acheivements')">
+                Achievements
+              </p>
+              <p class="tab-links active-link" onclick="openTab('interest')">
+                Interest
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="certification">
+              <ul>
+                <li>
+                  <span>Lets Upgrade-Full Stack Developer Program</span>
+                  <span
+                    ><a
+                      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJgGltv8eSXp1pD_1AaH1tZi-pzrE-2EKMGQ&usqp=CAU"
+                      >Certificate Link</a
+                    ></span
+                  >
+                </li>
+
+                <li>
+                  <span>Aws Cloud Practionar Essential </span>
+                  <span
+                    ><a
+                      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJgGltv8eSXp1pD_1AaH1tZi-pzrE-2EKMGQ&usqp=CAU"
+                      >Certificate Link</a
+                    ></span
+                  >
+                </li>
+
+                <li>
+                  <span>Oracle Sun Certified </span>
+                  <span
+                    ><a
+                      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJgGltv8eSXp1pD_1AaH1tZi-pzrE-2EKMGQ&usqp=CAU"
+                      >Certificate Link</a
+                    ></span
+                  >
+                </li>
+
+                <li>
+                  <span>RPA Certified</span>
+                  <span
+                    ><a
+                      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJgGltv8eSXp1pD_1AaH1tZi-pzrE-2EKMGQ&usqp=CAU"
+                      >Certificate Link</a
+                    ></span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>IIT Hyderabad</span>,India<br />
+                  july 2023 <br />
+                  B. Tech, Computer Science and Engineering
+                </li>
+              </ul>
+
+              <li>
+                <span>St. Patricks </span>Kolkata,India <br />
+                May 2019 <br />
+                Intermediate-Maths,Physics and Chemistry
+              </li>
+
+              <li>
+                <span>Little High School </span>Kolkata,India <br />
+                May 2017 <br />
+                Class-X
+              </li>
+            </div>
+
+            <div class="tab-contents" id="acheivements">
+              <ul>
+                <li>
+                  <span>All India Hackathon Certified</span> Awared, Ministry of
+                  Digital India <br />
+                  APril,2023
+                </li>
+
+                <li>
+                  <span>Star of Month </span> Award, Amazon <br />
+                  APril,2022 <br />
+                  --award for the most contribution to the work by takin
+                  multiple task in Team.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="interests">
+              <ul>
+                <li>Travelling</li>
+                <li>Teaching</li>
+                <li>Development</li>
+                <li>Reading Tech stuff</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills  -->
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skills-list">
+          <div class="skill">
+            <div style="background-color: orange; width: 70%">HTML5</div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: blue; width: 80%">CSS</div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: gold; width: 80%">Javascript</div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(255, 0, 115); width: 80%">
+              React.js
+            </div>
+            <div style="background-color: white; width: 30%">80%</div>
+          </div>
+          <div class="skill">
+            <div style="background-color: rgb(255, 51, 0); width: 80%">
+              NodeJs
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+          <div class="skill">
+            <div style="background-color: greenyellow; width: 80%">Express</div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(46, 14, 163); width: 80%">
+              Mongodb
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(66, 163, 14); width: 80%">
+              Bootstrap
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(14, 163, 128); width: 80%">
+              MySQL
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(156, 135, 235); width: 80%">
+              MUI
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(14, 163, 54); width: 80%">
+              ReactStrap
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+
+          <div class="skill">
+            <div style="background-color: rgb(163, 153, 14); width: 80%">
+              Agile
+            </div>
+            <div style="background-color: white; width: 30%">70%</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 20px">
+        <h1>Tools</h1>
+        <div class="tools">
+          <div class="tool" style="background-color: rgb(82, 74, 74)">Git</div>
+          <div class="tool" style="background-color: rgb(44, 52, 214)">
+            Vscode
+          </div>
+          <div class="tool" style="background-color: rgb(255, 102, 19)">
+            postman
+          </div>
+          <div class="tool" style="background-color: rgb(82, 74, 74)">
+            ThunderClient
+          </div>
+          <div class="tool" style="background-color: rgb(223, 127, 127)">
+            Netlify
+          </div>
+          <div class="tool" style="background-color: rgb(104, 247, 104)">
+            Render
+          </div>
+          <div class="tool" style="background-color: rgb(232, 161, 208)">
+            Vercel
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work/Projects  -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>

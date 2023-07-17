@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  /* width of the entire scrollbar */
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #666;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cfd8dc;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 2px solid rgba(150, 148, 148, 0.644);
+  /* creates padding around scroll thumb */
+}
+
+.header {
+  z-index: 10000 !important;
+}
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=800");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.html {
+  background-color: #ff5722 !important;
+}
+
+.css {
+  background-color: #2962ff !important;
+}
+
+.js {
+  background-color: #ebbf2f !important;
+}
+
+.bootstrap {
+  background-color: #5e35b1 !important;
+}
+
+.react {
+  background-color: #4fc3f7 !important;
+}
+
+.node {
+  background-color: #64dd17 !important;
+}
+
+.express {
+  background-color: #424242 !important;
+}
+
+.mongo {
+  background-color: #00c853 !important;
+}
+
+.sql {
+  background-color: #0097a7 !important;
+}
+
+.rb {
+  background-color: #7c4dff !important;
+}
+
+/* .rs {
+  background-color: #7e57c2 !important;
+} */
+
+.mdb {
+  background-color: #1976d2 !important;
+}
+
+.mui {
+  background-color: #0d47a1 !important;
+}
