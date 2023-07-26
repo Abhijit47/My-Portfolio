@@ -31,6 +31,7 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 90dvh;
 }
 
 .html {
@@ -84,3 +85,39 @@ body::-webkit-scrollbar-thumb {
 .mui {
   background-color: #0d47a1 !important;
 }
+
+footer {
+  position: relative;
+}
+
+.top_btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  box-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.5);
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to top, rgba(106, 17, 203, 0.65), rgba(37, 117, 252, 0.65));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, rgba(106, 17, 203, 0.65), rgba(37, 117, 252, 0.65))
+}
+
+/* .vscode,
+.postman,
+.thunder,
+.git,
+.netlify,
+.vercel,
+.render,
+.mongodb,
+.hyper {
+  outline: antiquewhite;
+  outline-style: groove;
+  border-radius: 50%;
+} */
